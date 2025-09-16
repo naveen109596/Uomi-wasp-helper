@@ -1,0 +1,5 @@
+{
+  "name": "uomi-wasp-helper",
+  "version": "0.1.0",
+  "description": "Wasp project wrapping a Rust -> WASM helper agent"
+}
