@@ -1,0 +1,15 @@
+app UomiHelperAgent {
+  title: "UOMI Helper Agent (Wasp + Rust)"
+  description: "Demo helper agent exported as WASM"
+  version: "0.1.0"
+}
+
+route RootRoute { path: "/", to: MainPage }
+
+page MainPage {
+  component: import Main from "@client/Main.jsx"
+}
+
+ext RustAgent {
+  location: "./agent"
+}
